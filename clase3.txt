@@ -1,0 +1,62 @@
+    1  df -h
+    2  sudo su -
+    3  ifconfig
+    4  ping 8.8.8.8
+    5  sudo su
+    6  pwd
+    7  tree
+    8  clear
+    9  mkdir  ./principal/{1,2}/hola
+   10  tree
+   11  pwd
+   12  mkdir principal/{1,2}/hola
+   13  mkdir  -p principal/{1,2}/hola
+   14  tree
+   15  clear
+   16  tree
+   17  rm -r principal/{1,2}
+   18  tree
+   19  sudo su
+   20  sudo su -
+   21  tree
+   22  history
+   23  sudo sudo su
+   24  pwd
+   25  echo "hola consola"
+   26  ls -l
+   27  echo "hola consola">saludar.txt
+   28  ls -l
+   29  cat saludar.txt 
+   30  rm -r principal
+   31  ls -l
+   32  cat saludar.txt 
+   33  echo "borro lo anterio ">saludar.txt
+   34  cat saludar.txt 
+   35  echo "continuando con lo anterior">>saludar.txt
+   36  cat saludar.txt 
+   37  mad5 saludar.txt
+   38  md5sum saludar.txt 
+   39  sha
+   40  sha man
+   41  sha
+   42  man sha
+   43  sha256sum saludar.txt 
+   44  man sha
+   45  pwd
+   46  tree
+   47  sha256sum saludar.txt>hash
+   48  tree
+   49  rm -r hash 
+   50  tree
+   51  mkdir hash/sha256sum saludar.txt
+   52  mkdir -p hash/sha256sum saludar.txt
+   53  tree
+   54  rm -r hash/
+   55  tree
+   56  shasum saludar.txt>hash.txt
+   57  cat hash.txt 
+   58  tree
+   59  history>clase 3
+   60  tree
+   61  history>clase 3.txt
+   62  history>clase3.txt
