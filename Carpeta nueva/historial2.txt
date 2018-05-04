@@ -1,0 +1,56 @@
+    1  apt-get update && apt-get upgrade
+    2  apt-cache search kernel-header
+    3  apt-cache search linux-headers
+    4  apt-get install linux-header
+    5  apt-get install linux-headers
+    6  apt-get install linux-headers-$(uname -r)
+    7  apt-cache search build
+    8  apt-cache search build | more
+    9  apt-get install build-essential
+   10  apt-get install lvm mdadm tree less git mc
+   11  apt-get install lvm2 mdadm tree less git mc
+   12  cd /media/alumno/VBOXADDITIONS_5.1.8_111374/
+   13  ls -l
+   14  ./VBoxLinuxAdditions.run 
+   15  apt-get clean
+   16  reboot
+   17  apt-get install wireshark
+   18  wireshark
+   19  pwd
+   20  ls
+   21  10
+   22  2
+   23  3
+   24  a
+   25  apt-get update
+   26  apt-get upgrade
+   27  apt-get clear
+   28  apt-get clean
+   29  sudo apt-get clean
+   30  sudo su apt-get clean
+   31  apt-get autoclean
+   32  ls var/cache/apt/
+   33  ls var/cache/apt/archives/
+   34  apt-get instal "terminato"
+   35  apt-get instal"terminato"
+   36  apt-get install "terminato"
+   37  apt-get install "terminator"
+   38  apt-get install "mc"
+   39  mc
+   40  dpkg -l
+   41  dpkg -l paidmore
+   42  dpkg -l |more
+   43  dpkg -r mc
+   44  apt-get install "mc"
+   45  dpkg -L mc
+   46  which mc
+   47  which ls
+   48  dpkg ma
+   49  which man
+   50  dpkg -S /usr/bin/man
+   51  cd
+   52  cd /home/
+   53  cd /home/alumno/
+   54  sudo su
+   55  history
+   56  history > /home/alumno/historial2.txt

@@ -1,0 +1,108 @@
+**SUB DIRECTORIOS
+/var/tmp
+/boot
+/usr/bin
+/opt
+/etc
+/passwd
+/var
+root
+----------------------------------------
+FS-->FHS
+
+ARCHIVOS ESTATICOS Y DINAMICOS
+estaticos /bin ,boot,sbin,/usr/bin
+dinamocos home,var/etc,
+
+ARCHIVOS COMPARTIDOS Y RESTRINGIDOS
+directoris q son comparidos /usr/bin
+
+atrivutos,permisos
+----------------------------------------
+**comandos
+sudo su -->
+du -h -->tamaño de
+curl -->copia url
+tar -->descomprime
+cp -->copia archivos
+more -->mu
+cat -->muestra el contenido de un archivo
+less -->muestra y poder navegar por el archivo
+mkdir -->crea 
+> < >> << -->redireciona informacion
+whitc -->indica en q sub directorio esta el comando
+mv -->
+man -->
+ls -->
+info -->
+--help -->
+whatis -->cuantos manuales 
+touch -->
+tree -->
+clear -->
+rm -->
+rmdir -->
+mv --> sirve para modificar el nombre de archivos y directorios o para trasladarlos a alguna otra ubicación dentro del árbol de directorios.
+echo -->
+pipe | -->
+&& -->
+head -->
+tail -->
+mc
+----------------------------------------
+ARCHIVOS DIRECORIOS
+ARCHIVOS COMUNES
+ARCHIVOS ESPECIALES
+
+
+
+---------------------------------------------------------------------
+
+
+
+compartir internet
+carpeta compartida guardar historial en D
+
+
+----------------------------------------
+cd -->home/usuario
+cd / -->
+mkdir -p -->	
+
+-------------------------------------------------
+**pipe
+
+ls | less
+ls | head -3
+ls | media | && echo "hola"
+ls | medios && echo "hola"
+----------------------------------------------
+**paquetes
+3 tipos de paquetes 
+-estable
+ 
+-testing
+econtrar errores
+
+-
+
+*apt es una heramienta
+
+apt-get
+apt-cache 
+apt-cache search " "
+apt-get check
+apt-get update
+	upgrade
+	clean
+	autoclean
+	autoremove
+	install "terminator"
+	-f install "terminator"
+	--reinstall "terminator"
+
+dpkg -l
+     -r mc
+     -L mc
+     -S /bin/ls
+

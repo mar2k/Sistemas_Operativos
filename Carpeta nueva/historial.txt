@@ -1,0 +1,48 @@
+    1  df -h
+    2  sudo su -
+    3  ifconfig
+    4  ping 8.8.8.8
+    5  sudo su
+    6  echo "hola" > practica
+    7  mkdir carpeta nueva
+    8  tree
+    9  ls
+   10  clear
+   11  tree
+   12  clear
+   13  ls --help
+   14  man ls
+   15  info ls
+   16  whatis pwd
+   17  whatis passwd
+   18  clera
+   19  clear
+   20  whatis passwd
+   21  man rm
+   22  rm -r practica 
+   23  tree
+   24  man mv
+   25  sudo su
+   26  cd /media/
+   27  ls
+   28  cd alumno/
+   29  pwd
+   30  cd 
+   31  pwd
+   32  cd /
+   33  pwd
+   34  cd 
+   35  pwd
+   36  mkdir -p principal/{dato/{personales,backup},fotos/{compartidas,bloqueadas},historial}
+   37  tree
+   38  man mv
+   39  history > principal/historial/historial.txt
+   40  man cat
+   41  cat principal/historial/historial.txt 
+   42  curl -O https://www.linuxadictos.com/wp-content/uploads/tux-kernel-linux.jpg -O https://www.artescritorio.com/wp-content/uploads/2017/04/versiones-de-linux-mas-utilizadas-en-este-2017-630x354.jpg > principal/fotos/compartidas/
+   43  mv principal/fotos/compartidas/foto2.jpg > principal/fotos/bloqueadas/
+   44  mv principal/fotos/compartidas/foto2.jpg ~/principal/fotos/bloqueadas/
+   45  cp /etc/passwd /home/alumno/principal/dato/personales/datos.txt
+   46  pwd
+   47  curl -O https://www.linuxadictos.com/wp-content/uploads/tux-kernel-linux.jpg -O https://www.artescritorio.com/wp-content/uploads/2017/04/versiones-de-linux-mas-utilizadas-en-este-2017-630x354.jpg ~/ principal/fotos
+   48  history > principal/historial/historial.txt
