@@ -1,0 +1,41 @@
+    1  apt-get update && apt-get upgrade
+    2  apt-cache search kernel-header
+    3  apt-cache search linux-headers
+    4  apt-get install linux-header
+    5  apt-get install linux-headers
+    6  apt-get install linux-headers-$(uname -r)
+    7  apt-cache search build
+    8  apt-cache search build | more
+    9  apt-get install build-essential
+   10  apt-get install lvm mdadm tree less git mc
+   11  apt-get install lvm2 mdadm tree less git mc
+   12  cd /media/alumno/VBOXADDITIONS_5.1.8_111374/
+   13  ls -l
+   14  ./VBoxLinuxAdditions.run 
+   15  apt-get clean
+   16  reboot
+   17  apt-get install wireshark
+   18  wireshark
+   19  mkdir ../sistemas/{contabilidad/{CBA,perfiles}/..,recursos/perfiles/{usuarios,usuarios-dev/}/../..}/{programas,textos}
+   20  ls ../
+   21  mkdir ../sistemas/{contabilidad/{CBA,perfiles}/..,recursos/perfiles/{usuarios,usuarios-dev/}/../..}/{programas,textos}
+   22  mkdir nuevo
+   23  ls ../
+   24  mkdir -p ../sistemas/{contabilidad/{CBA,perfiles}/..,recursos/perfiles/{usuarios,usuarios-dev/}/../..}/{programas,textos}
+   25  ls ../
+   26  tree ../sistemas/
+   27  echo "ESTOS SON TODO LOS USUARIOS DEL SISTEMA" > USUARIOS.txt
+   28  ls
+   29  cp ../../etc/services ../sistemas/contabilidad/CBA/ > servicios.txt
+   30  tree ../sistemas/
+   31  rm -r ../sistemas/contabilidad/CBA/services 
+   32  tree ../sistemas/
+   33  cat ../../etc/services ../sistemas/contabilidad/CBA/ > servicios.txt
+   34  tree ../sistemas/
+   35  cat ../../etc/services ../sistemas/contabilidad/CBA/ > servicios.txt
+   36  cp ../../etc/services ../sistemas/contabilidad/CBA/ > servicios.txt
+   37  mv ../sistemas/contabilidad/CBA/services  ../sistemas/recursos/textos/
+   38  tree ../sistemas/
+   39  histry
+   40  history 
+   41  history > parcial_SO_1.txt
