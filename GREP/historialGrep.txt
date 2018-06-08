@@ -1,0 +1,62 @@
+    1  apt-get update && apt-get upgrade
+    2  apt-cache search kernel-header
+    3  apt-cache search linux-headers
+    4  apt-get install linux-header
+    5  apt-get install linux-headers
+    6  apt-get install linux-headers-$(uname -r)
+    7  apt-cache search build
+    8  apt-cache search build | more
+    9  apt-get install build-essential
+   10  apt-get install lvm mdadm tree less git mc
+   11  apt-get install lvm2 mdadm tree less git mc
+   12  cd /media/alumno/VBOXADDITIONS_5.1.8_111374/
+   13  ls -l
+   14  ./VBoxLinuxAdditions.run 
+   15  apt-get clean
+   16  reboot
+   17  apt-get install wireshark
+   18  wireshark
+   19  grep ../../root/
+   20  clear
+   21  cat malis.txt
+   22  cat ./Escritorio/malis.txt
+   23* cat 
+   24  cat ./Escritorio/malis.txt | grep ./Escritorio/mails.txt 
+   25  grep ./Escritorio/mails.txt 
+   26  grep ./Escritorio/mails.txt tumail 
+   27  grep ./Escritorio/mails.txt ^tumail 
+   28  cat ./Escritorio/malis.txt | grep ./Escritorio/mails.txt grep ./Escritorio/mails.txt ^tumail 
+   29  cat ./Escritorio/malis.txt | grep ./Escritorio/mails.txt grep ./Escritorio/mails.txt 
+   30  cat ./Escritorio/malis.txt 
+   31  cat ./Escritorio/mails.txt 
+   32  cat ./Escritorio/mails.txt | grep ./Escritorio/mails.txt ^tumail 
+   33  cat ./Escritorio/mails.txt | grep ./Escritorio/mails.txt ^gm 
+   34  claer
+   35  clear
+   36  cat ./Escritorio/mails.txt | grep ./Escritorio/mails.txt ^gm 
+   37  cat ./Escritorio/mails.txt | grep ./Escritorio/mails.txt ^tumail 
+   38* cat ./Escritorio/mails.txt | grep 
+   39  cat ./Escritorio/mails.txt | grep  ^tumail 
+   40  cat ./Escritorio/mails.txt | grep  ^gm
+   41  cat ./Escritorio/mails.txt | grep ^gm
+   42  cat ./Escritorio/mails.txt | grep ^gma
+   43  cat ./Escritorio/mails.txt | grep ^gmail
+   44  cat ./Escritorio/mails.txt | grep  ^tumail 
+   45  cat ./Escritorio/mails.txt | grep  ^gm 
+   46  cat ./Escritorio/mails.txt | grep  gm 
+   47  cat ./Escritorio/mails.txt | grep  ^ 
+   48  cat ./Escritorio/mails.txt | grep [0-9]
+   49  cat ./Escritorio/mails.txt | grep [0-9]@
+   50  cat ./Escritorio/mails.txt | grep @[0-9]
+   51  cat ./Escritorio/mails.txt | grep [0-10]
+   52  cat ./Escritorio/mails.txt | grep [0-9]
+   53  cat ./Escritorio/mails.txt | grep [0-6]
+   54  cat ./Escritorio/mails.txt | grep [0-7]
+   55  cat ./Escritorio/mails.txt | grep [8]
+   56  cat ./Escritorio/mails.txt | grep [0-9]@
+   57  cat ./Escritorio/mails.txt | grep ../../etc/passwd
+   58  grep ../../etc/passwd
+   59  cat ../../etc/passwd | grep ../../etc/passwd
+   60  cat ../../etc/passwd | grep
+   61  cat ../../etc/passwd | grep a
+   62  history >> ./Escritorio/historialGrep.txt
